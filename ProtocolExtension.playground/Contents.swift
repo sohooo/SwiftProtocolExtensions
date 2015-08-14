@@ -21,11 +21,7 @@ struct AwesomeSauce {
 
     var name: String
     var awesomeLevel:String
-    
-    init(name:String,awesomeLevel:String) {
-        self.name = name
-        self.awesomeLevel = awesomeLevel
-    }
+
 }
 
 //: ### And we can use an extension to implement this protocol on that struct! How cool.
